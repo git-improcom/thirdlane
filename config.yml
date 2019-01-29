@@ -5,5 +5,4 @@ db_name: "pbxconf"
 db_user: "root"
 db_pass: "passw0rd"
 tenant: "thirdlane"
-mydomain: "mydomain.com"
-...
+mydomain: "thirdlane.mydomain.com"

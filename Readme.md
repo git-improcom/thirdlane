@@ -25,6 +25,7 @@ if [ ! -d /usr/local/utils/thirdlane_modules ]; then mkdir -p /usr/local/utils/t
 cd /usr/local/utils/thirdlane_modules
 git clone git@github.com:improcom/thirdlane.git thirdlane_directory_generator
 chmod +x thirdlane_directory_generator/phone_directory_config_generator
+cd thirdlane_directory_generator
 #Edit config.yml as necessary.
 rm -rf phone_directory_config_generator && git reset --hard && git pull && chmod +x phone_directory_config_generator && ./phone_directory_config_generator
 ```
