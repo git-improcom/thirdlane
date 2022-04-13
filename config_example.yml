@@ -3,6 +3,6 @@ db_host: "127.0.0.1"
 db_port: 3306
 db_name: "pbxconf"
 db_user: "root"
-db_pass: "passw0rd"
+db_pass: "pass"
 tenant: "thirdlane"
 mydomain: "thirdlane.mydomain.com"
